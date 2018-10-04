@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Saker Style Guide v0.0.1</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
+</head>
+
+<body style="" class="resultShown">
+	<div id="main-holder" class="container_16">
+		<h2 class="grid_16">Logo</h2>
+
+		<img class="image-holder" src="./images/falkonry-logo.png">
+
+		<h2>Primary Colors</h2>
+		<div class="grid_2">
+			<figure id="bg-color-1" class="swatch-wrap">
+				<div class="swatch-holder" style="background: #F89622;"></div>
+				<figcaption>
+					HEX
+					<span class="colour-hex">#F89622</span>
+				</figcaption>
+			</figure>
+		</div>
+		<div class="grid_2">
+			<figure id="bg-color-6" class="swatch-wrap">
+				<div class="swatch-holder" style="background: #212121;"></div>
+				<figcaption>
+					HEX
+					<span class="colour-hex">#212121</span>
+				</figcaption>
+			</figure>
+		</div>
+		<div class="grid_2">
+			<figure id="bg-color-6" class="swatch-wrap">
+				<div class="swatch-holder" style="background: #5F5D5D;"></div>
+				<figcaption>
+					HEX
+					<span class="colour-hex">#5F5D5D</span>
+				</figcaption>
+			</figure>
+		</div>
+		<div class="grid_2">
+			<figure id="bg-color-5" class="swatch-wrap">
+				<div class="swatch-holder" style="background: rgb(255, 255, 255);"></div>
+				<figcaption>
+					HEX
+					<span class="colour-hex">#ffffff</span>
+				</figcaption>
+			</figure>
+		</div>
+
+		<h2 class="grid_16">Accent Colors</h2>
+		<div class="grid_2">
+			<figure id="bg-color-2" class="swatch-wrap">
+				<div class="swatch-holder" style="background: #00bcd4;"></div>
+				<figcaption>
+					HEX
+					<span class="colour-hex">#00bcd4</span>
+				</figcaption>
+			</figure>
+		</div>
+		<div class="grid_2">
+			<figure id="bg-color-3" class="swatch-wrap">
+				<div class="swatch-holder" style="background: #F0F0EF;"></div>
+				<figcaption>
+					HEX
+					<span class="colour-hex">#F0F0EF</span>
+				</figcaption>
+			</figure>
+		</div>
+
+		<h2 class="grid_16">Typography</h2>
+		<table class="grid_16 grid-dl">
+			<tbody>
+				<tr>
+					<th id="result-body-dt" class="first last" scope="row"><strong style="opacity: 1;">Roboto</strong></th>
+					<td id="result-body-dd" class="first last">
+						<div style="opacity: 1; font-style: normal; font-size: 24px; line-height: 28px; color: rgb(103, 103, 103); background-color: transparent;">The
+							quick brown fox...</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<style>
+	/*reset*/
+	a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,dialog,div,dl,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,html,i,iframe,img,ins,kbd,label,legend,li,main,mark,menu,meter,nav,object,ol,output,p,pre,progress,q,rp,rt,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video,xmp{border:0;font-size:100%;margin:0;padding:0}
+	html,body{height:100%}
+	article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}
+	b,strong{font-weight:700}
+	img{color:transparent;font-size:0;vertical-align:middle;-ms-interpolation-mode:bicubic}
+	ol,ul{list-style:none}
+	li{display:list-item}
+	table{border-collapse:collapse;border-spacing:0}
+	th,td,caption{font-weight:400;vertical-align:top;text-align:left}
+	q{quotes:none}
+	q:before,q:after{content:none}
+	sub,sup,small{font-size:75%}
+	sub,sup{line-height:0;position:relative;vertical-align:baseline}
+	sub{bottom:-.25em}
+	sup{top:-.5em}
+	svg{overflow:hidden}
+	* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+	/*base*/
+	body, button{font-family: 'Roboto', sans-serif;}
+	pre,code{font-family:"DejaVu Sans Mono", Menlo, Consolas, monospace}
+	hr{border:0 solid #ccc;border-top-width:1px;clear:both;height:0}
+	h1{font-size:25px}
+	h2{font-size:23px}
+	h3{font-size:21px}
+	h4{font-size:19px}
+	h5{font-size:17px}
+	h6{font-size:15px}
+	ol{list-style:decimal}
+	ul{list-style:disc}
+	li{margin-left:30px}
+	p,dl,hr,h1,h2,h3,h4,h5,h6,ol,ul,pre,table,address,fieldset,figure{margin-bottom:20px}
+	* {
+		font-family: 'Roboto', sans-serif;
+	}
+
+	/*Grid*/
+	body{min-width:960px}
+	.container_16{margin-left:auto;margin-right:auto;width:960px}
+	.grid_1,.grid_2,.grid_3,.grid_4,.grid_5,.grid_6,.grid_7,.grid_8,.grid_9,.grid_10,.grid_11,.grid_12,.grid_13,.grid_14,.grid_15,.grid_16{display:inline;float:left;margin-left:10px;margin-right:10px}
+	.alpha{margin-left:0}
+	.omega{margin-right:0}
+	.container_16 .grid_1{width:40px}
+	.container_16 .grid_2{width:100px}
+	.container_16 .grid_3{width:160px}
+	.container_16 .grid_4{width:220px}
+	.container_16 .grid_5{width:280px}
+	.container_16 .grid_6{width:340px}
+	.container_16 .grid_7{width:400px}
+	.container_16 .grid_8{width:460px}
+	.container_16 .grid_9{width:520px}
+	.container_16 .grid_10{width:580px}
+	.container_16 .grid_11{width:640px}
+	.container_16 .grid_12{width:700px}
+	.container_16 .grid_13{width:760px}
+	.container_16 .grid_14{width:820px}
+	.container_16 .grid_15{width:880px}
+	.container_16 .grid_16{width:940px}
+	.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+	.clearfix:before,.clearfix:after,.container_16:before,.container_16:after{content:'.';display:block;overflow:hidden;visibility:hidden;font-size:0;line-height:0;width:0;height:0}
+	.clearfix:after,.container_16:after{clear:both}
+	.clearfix,.container_16{zoom:1}
+
+	/*styles*/
+	body {height: auto; min-height:100%; padding: 0 0 120px; position: relative; margin:0 0; background: #fff; color: #959595; font:normal 14px/18px "Helvetica Neue", Arial, Helvetica, sans-serif;  }
+	body.loading {cursor: wait;}
+	body.resultShown {color: #000;}
+
+	a { color: #000; text-decoration: none;}
+	a:hover, a:focus { text-decoration: underline; }
+
+	/*main*/
+	#main-holder {background-color: #fff; position: relative; padding: 18px 0;}
+
+	.action-button {position: absolute; top:18px; padding:6px 10px; background: #000; border:0; color: #fff; font-size: 14px; font-weight: bold; cursor: pointer; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px;}
+	.action-button i {float: left; width: 12px; height: 12px; margin:3px 7px 0 0; background: url(../images/down-btn.png) 0 0 no-repeat;}
+	.action-button[disabled] {background: #e1e1e1;  cursor: default;}
+	.text-button {background: none; border:0; font-weight: bold; font-size: 14px; line-height: 18px; cursor:pointer; padding: 0; text-align: left;}
+	.text-button:hover, .text-button:focus {text-decoration: underline;}
+	#btn-download { right: 10px;}
+
+	h1 { font-weight: normal; padding-top: 18px; }
+	h2 {padding-top: 18px; font-weight: bold; font-size: 14px; line-height: 36px; color:#959595; border-bottom:solid 1px #959595; }
+
+	.swatch-wrap {border:solid 1px #ccc; padding: 5px;}
+	.swatch-holder {width:88px; height: 88px; background: #e1e1e1; border:solid 1px #e1e1e1;}
+	.swatch-wrap figcaption {color: #959595; font-size: 12px; font-weight: bold; line-height: 1.5em; padding: 5px 0 0; }
+	.resultShown .swatch-wrap figcaption {color:#363636;}
+	.swatch-wrap figcaption span {text-transform: lowercase;}
+
+	.grid-dl {margin-top: -19px; }
+	.grid-dl table { width: 100%;}
+	.grid-dl th {padding: 18px 18px 18px 0; border:solid 1px #ebebeb; border-left:0; border-bottom:0;}
+	.grid-dl td {padding: 18px 0 18px 18px; width: 50%; max-width: 590px; border-top:solid 1px #ebebeb; overflow: hidden;  text-overflow: ellipsis; white-space: nowrap;}
+	.grid-dl td div {display: block;  }
+	.grid-dl td div div {white-space:nowrap;}
+
+	.grid-dl .first {border-top: none;}
+	.grid-dl .last {border-bottom: solid 1px #ebebeb;}
+
+	#result-header-1-dd {font: normal 30px/1em Georgia, Times, "Times New Roman", serif;}
+	#result-header-2-dd {font: normal 24px/1em Georgia, Times, "Times New Roman", serif;}
+	#result-header-3-dd {font: normal 18px/1em Georgia, Times, "Times New Roman", serif;}
+	#result-header-4-dd {font: normal 18px/1em Georgia, Times, "Times New Roman", serif;}
+	#result-header-5-dd {font: normal 14px/1em Georgia, Times, "Times New Roman", serif;}
+	#result-header-6-dd {font: normal 12px/1em Georgia, Times, "Times New Roman", serif;}
+
+	.image-holder {display:block; background-color: #5f5d5d; margin-left:10px; text-align: left; padding:20px}
+			
+	#homepage-img-holder { margin-bottom: 2em; border:1px solid #CCCCCC;}
+	#homepage-img-holder img {max-width:100%;}
+	#homepage-img-holder svg {float: left;}
+
+	/*helper*/
+	.right {float:right;}
+	.left {float:left;}
+	.hide {display:none;}
+
+	</style>
+</body>
+
+</html>
